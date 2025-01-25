@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+
+.menNewParent {
+    position: relative;
+}
+
+.menNew {
+    position: absolute;
+    top: 100%; /* Aligns the dropdown box right below the parent */
+    left: 0; /* Aligns the box with the parent link */
+    display: none; /* Initially hidden */
+    width: 85vw; /* Adjust as needed */
+    height: 500px;
+    background-color: white;
+    z-index: 10; /* Ensures it appears on top of other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better appearance */
+}
+
+.menNewParent:hover .menNew {
+    display: block; /* Show the dropdown on hover */
+}
