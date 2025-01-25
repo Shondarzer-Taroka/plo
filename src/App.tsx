@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Header from './pages/Headers/Header'
 import MenNavbar from './pages/NavBarRelated/MenNavbar/MenNavbar'
+import WomenNavbar from './pages/NavBarRelated/WomenNavbar/WomenNavbar'
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     <>
       <Navbar />
       <Header />
-      {location.pathname === '/men' ? <MenNavbar /> : location.pathname === '/women'}
+      {location.pathname === '/men' ? <MenNavbar /> : <WomenNavbar/>}
       <Outlet />
     </>
   )

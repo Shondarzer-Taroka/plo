@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function MenNavbar() {
+export default function WomenNavbar() {
   return (
     <nav className="bg-gray-800 text-white">
       <div className="flex items-center space-x-6 px-6 h-[60px] border-b-2 border-yellow-400">
@@ -11,22 +11,24 @@ export default function MenNavbar() {
         >
           <span className="skew-x-[15deg]">Sale</span>
         </Link>
-        <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+        <a href="#" className="hover:text-gray-400">
           New in
         </a>
-        <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+        <a href="#" className="hover:text-gray-400">
           Clothing
         </a>
-        <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+        <a href="#" className="hover:text-gray-400">
           Trending
         </a>
-        <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+        <a href="#" className="hover:text-gray-400">
           Dresses
         </a>
         <a href="#" className="hover:text-gray-400">
           Shoes
         </a>
-        
+        <a href="#" className="hover:text-gray-400">
+          Face + Body
+        </a>
         <a href="#" className="hover:text-gray-400">
           Accessories
         </a>
@@ -37,10 +39,7 @@ export default function MenNavbar() {
           Activewear
         </a>
         <a href="#" className="hover:text-gray-400">
-          Gromming
-        </a>
-        <a href="#" className="hover:text-gray-400">
-          Topman
+          Topshop
         </a>
         <a href="#" className="hover:text-gray-400">
           Marketplace
