@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import BrandDrops from "./BrandDrops";
 import NewEdits from "./NewEdits";
@@ -256,16 +255,40 @@ export default function MenNavbar() {
                         </div>
                     </div>
                 </Link>
-                <a href="#" className="hover:text-gray-400">
+                <Link to={'/men'} className=" menActivewearParent hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Activewear
-                </a>
-                <a href="#" className="hover:text-gray-400">
+                    <div className="">
+                        <div className="menActivewear">
+                            <aside className="grid grid-cols-4 gap-4">
+                                <div className="p-4">
+                                <TopBrandsMen/>
+                                </div>
+
+
+
+                                <div className="flex flex-col items-center p-4">
+                                    <BrandListMen/>
+                                </div>
+
+
+                                <div>
+                                 <DiscoverBrandsMen/>
+                                </div>
+
+                                <div>
+                                   <FeaturedBrandsMen/>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </Link>
+                <a href="#" className=" hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Gromming
                 </a>
-                <a href="#" className="hover:text-gray-400">
+                <a href="#" className=" hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Topman
                 </a>
-                <a href="#" className="hover:text-gray-400">
+                <a href="#" className=" hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Marketplace
                 </a>
             </div>

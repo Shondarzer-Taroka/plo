@@ -4,14 +4,17 @@
 .menNewParent, .menClothingParent, 
 .menTrendingParent,.menDressesParent,
 .menShoesParent,.menAccessoriesParent,
-.menBrandsParent
+.menBrandsParent,.menActivewearParent
 {
     position: relative;
 }
 
 
 
-.menNew, .menClothing, .menTrending, .menDresses,.menShoes,.menAccessories,.menBrands{
+.menNew, .menClothing, .menTrending, 
+.menDresses,.menShoes,
+.menAccessories,.menBrands,
+.menActivewear{
     position: absolute;
     top: 100%; /* Aligns the dropdown box right below the parent */
     left: -60px; /* Aligns the box with the parent link */
@@ -42,6 +45,9 @@
 .menBrands{
     left: -696px;
 }
+.menActivewear{
+    left: -796px;
+}
 
 .menNewParent:hover .menNew {
     display: block; /* Show the dropdown on hover */
@@ -63,5 +69,8 @@
     display: block;
 }
 .menBrandsParent:hover .menBrands{
+    display: block;
+}
+.menActivewearParent:hover .menActivewear{
     display: block;
 }
