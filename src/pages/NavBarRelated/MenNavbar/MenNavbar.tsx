@@ -18,6 +18,7 @@ import TopBrandsMen from "./TopBrandsMen";
 import BrandListMen from "./BrandListMen";
 import DiscoverBrandsMen from "./DiscoverBrandsMen";
 import FeaturedBrandsMen from "./FeaturedBrandsMen";
+import ActiveWeareBrandsMen from "./ActiveWeareBrandsMen";
 
 export default function MenNavbar() {
     return (
@@ -261,7 +262,7 @@ export default function MenNavbar() {
                         <div className="menActivewear">
                             <aside className="grid grid-cols-4 gap-4">
                                 <div className="p-4">
-                                <TopBrandsMen/>
+                                <ActiveWeareBrandsMen/>
                                 </div>
 
 
