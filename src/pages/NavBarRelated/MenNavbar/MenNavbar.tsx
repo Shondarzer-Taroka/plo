@@ -6,6 +6,7 @@ import ShopByProduct from "./ShopByProduct";
 import ShopByBodyFit from "./ShopByBodyFit";
 import ShopByEdit from "./ShopByEdit";
 import TopSearchedFaves from "./TopSearchedFaves";
+import FashionStyles from "./FashionStyles";
 
 export default function MenNavbar() {
     return (
@@ -92,21 +93,21 @@ export default function MenNavbar() {
                         <div className="menClothing">
                             <aside className="grid grid-cols-3 gap-4">
                                 <div className="p-4">
-                                 <ShopByProduct/>
+                                    <ShopByProduct />
                                 </div>
 
 
 
                                 <div className="flex flex-col items-center p-4">
-                                   <ShopByBodyFit/>
+                                    <ShopByBodyFit />
                                 </div>
 
 
                                 <div className="p-4">
-                                  <ShopByEdit/>
+                                    <ShopByEdit />
                                 </div>
 
-                              
+
                             </aside>
                         </div>
                     </div>
@@ -115,30 +116,91 @@ export default function MenNavbar() {
                     Trending
                     <div>
                         <div className="menTrending">
-                            <aside className="grid grid-cols-3 gap-4">
+                            <aside className="grid grid-cols-4 gap-4">
                                 <div className="p-4">
-                            <TopSearchedFaves/>
+                                    <TopSearchedFaves />
+                                </div>
+
+
+                                <div className=" col-span-3 p-4">
+                                    <FashionStyles />
+                                </div>
+
+
+                            </aside>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to={'/men'} className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+                    Dresses
+
+                    <div className="bg-gray-menNew">
+                        <div className="menNew">
+                            <aside className="grid grid-cols-4 gap-4">
+                                <div className="p-4">
+                                    <h2 className="font-bold text-lg mb-4">NEW PRODUCTS</h2>
+                                    <ul className="space-y-2">
+                                        <li className="text-gray-700">View all</li>
+                                        <li className="text-gray-700">Clothing</li>
+                                        <li className="text-gray-700">Shoes</li>
+                                        <li className="font-bold text-gray-900">New in: Today</li>
+                                        <li className="font-bold text-gray-900">New In: Selling Fast</li>
+                                        <li className="text-gray-700">T-Shirts & Vests</li>
+                                        <li className="text-gray-700">Coats & Jackets</li>
+                                        <li className="text-gray-700">Hoodies & Sweatshirts</li>
+                                        <li className="text-gray-700">Activewear</li>
+                                        <li className="text-gray-700">Jumpers</li>
+                                        <li className="text-gray-700">Jeans & Trousers</li>
+                                        <li className="text-gray-700">Accessories</li>
+                                        <li className="text-gray-700">Underwear</li>
+                                    </ul>
                                 </div>
 
 
 
                                 <div className="flex flex-col items-center p-4">
-                                   <ShopByBodyFit/>
+                                    <h1 className="text-xl font-bold mb-4">SHOP VALENTINES</h1>
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div className="flex flex-col items-center">
+                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
+                                                <img src="https://images.asos-media.com/navigation/MW+date+night+fits_dxxyhe?&$n_240w$&quot" alt="Date-night 'Fits" className="w-full h-full object-cover" />
+                                            </div>
+                                            <p className="text-center">Date-night 'Fits</p>
+                                        </div>
+                                        <div className="flex flex-col items-center">
+                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
+                                                <img src="https://images.asos-media.com/navigation/MW+satin+velvet_b2bbxx?&$n_240w$&quot" alt="Satin & Velvet" className="w-full h-full object-cover" />
+                                            </div>
+                                            <p className="text-center">Satin & Velvet</p>
+                                        </div>
+                                        <div className="flex flex-col items-center">
+                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
+                                                <img src="https://images.asos-media.com/navigation/MW+brands_ea5v1h?&$n_240w$&quot" alt="Premium Brands" className="w-full h-full object-cover" />
+                                            </div>
+                                            <p className="text-center">Premium Brands</p>
+                                        </div>
+                                        <div className="flex flex-col items-center">
+                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
+                                                <img src="https://images.asos-media.com/navigation/MW+vday+gifts_cd8ree?&$n_240w$&quot" alt="Gifts for Him" className="w-full h-full object-cover" />
+                                            </div>
+                                            <p className="text-center">Gifts for Him</p>
+                                        </div>
+                                    </div>
                                 </div>
 
 
-                                <div className="p-4">
-                                  <ShopByEdit/>
+                                <div>
+                                    <BrandDrops />
                                 </div>
 
-                              
+                                <div>
+                                    <NewEdits />
+                                </div>
                             </aside>
                         </div>
                     </div>
                 </Link>
-                <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
-                    Dresses
-                </a>
                 <a href="#" className="hover:text-gray-400">
                     Shoes
                 </a>
