@@ -18,6 +18,7 @@ import FeaturedProductsMen from "./FeaturedProductsMen";
 import TopBrandsMen from "./TopBrandsMen";
 import BrandListMen from "./BrandListMen";
 import DiscoverBrandsMen from "./DiscoverBrandsMen";
+import FeaturedBrandsMen from "./FeaturedBrandsMen";
 
 export default function MenNavbar() {
     return (
@@ -249,7 +250,7 @@ export default function MenNavbar() {
                                 </div>
 
                                 <div>
-                                    <FeaturedProductsMen/>
+                                   <FeaturedBrandsMen/>
                                 </div>
                             </aside>
                         </div>
