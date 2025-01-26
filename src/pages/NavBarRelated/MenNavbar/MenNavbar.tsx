@@ -19,6 +19,7 @@ import BrandListMen from "./BrandListMen";
 import DiscoverBrandsMen from "./DiscoverBrandsMen";
 import FeaturedBrandsMen from "./FeaturedBrandsMen";
 import ActiveWeareBrandsMen from "./ActiveWeareBrandsMen";
+import ShopByActivityMen from "./ShopByActivityMen";
 
 export default function MenNavbar() {
     return (
@@ -268,7 +269,7 @@ export default function MenNavbar() {
 
 
                                 <div className="flex flex-col items-center p-4">
-                                    <BrandListMen/>
+                                    <ShopByActivityMen/>
                                 </div>
 
 
