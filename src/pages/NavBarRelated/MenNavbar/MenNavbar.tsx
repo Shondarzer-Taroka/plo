@@ -225,8 +225,32 @@ export default function MenNavbar() {
                         </div>
                     </div>
                 </Link>
-                <Link to={'/men'} href="#" className="hover:text-gray-400">
+                <Link to={'/men'}  className="menBrandsParent  hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Brands
+                    <div className="">
+                        <div className="menBrands">
+                            <aside className="grid grid-cols-4 gap-4">
+                                <div className="p-4">
+                                    <ShopByAccessories/>
+                                </div>
+
+
+
+                                <div className="flex flex-col items-center p-4">
+                                    <ShopByMenJewellery/>
+                                </div>
+
+
+                                <div>
+                                  <ShopByBags/>
+                                </div>
+
+                                <div>
+                                    <FeaturedProductsMen/>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
                 </Link>
                 <a href="#" className="hover:text-gray-400">
                     Activewear
