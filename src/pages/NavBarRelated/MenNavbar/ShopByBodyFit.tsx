@@ -3,7 +3,7 @@ import React from 'react';
 const ShopByBodyFit = () => {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-gray-700 text-lg font-semibold mb-4">SHOP BY BODY FIT</h2>
+      <h2 className="text-lg font-bold  mb-4">SHOP BY BODY FIT</h2>
       <div className="flex space-x-8">
         <div className="flex flex-col items-center">
           <div className="w-32 h-32 rounded-full overflow-hidden mb-2">

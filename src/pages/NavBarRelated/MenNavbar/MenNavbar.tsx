@@ -4,6 +4,8 @@ import BrandDrops from "./BrandDrops";
 import NewEdits from "./NewEdits";
 import ShopByProduct from "./ShopByProduct";
 import ShopByBodyFit from "./ShopByBodyFit";
+import ShopByEdit from "./ShopByEdit";
+import TopSearchedFaves from "./TopSearchedFaves";
 
 export default function MenNavbar() {
     return (
@@ -100,20 +102,40 @@ export default function MenNavbar() {
                                 </div>
 
 
-                                <div>
-                                    <BrandDrops />
+                                <div className="p-4">
+                                  <ShopByEdit/>
                                 </div>
 
-                                <div>
-                                    <NewEdits />
-                                </div>
+                              
                             </aside>
                         </div>
                     </div>
                 </Link>
-                <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+                <Link to={'/men'} className=" menTrendingParent hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Trending
-                </a>
+                    <div>
+                        <div className="menTrending">
+                            <aside className="grid grid-cols-3 gap-4">
+                                <div className="p-4">
+                            <TopSearchedFaves/>
+                                </div>
+
+
+
+                                <div className="flex flex-col items-center p-4">
+                                   <ShopByBodyFit/>
+                                </div>
+
+
+                                <div className="p-4">
+                                  <ShopByEdit/>
+                                </div>
+
+                              
+                            </aside>
+                        </div>
+                    </div>
+                </Link>
                 <a href="#" className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Dresses
                 </a>
