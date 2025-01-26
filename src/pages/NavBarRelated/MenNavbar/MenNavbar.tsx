@@ -16,6 +16,8 @@ import ShopByMenJewellery from "./ShopByMenJewellery";
 import ShopByBags from "./ShopByBags";
 import FeaturedProductsMen from "./FeaturedProductsMen";
 import TopBrandsMen from "./TopBrandsMen";
+import BrandListMen from "./BrandListMen";
+import DiscoverBrandsMen from "./DiscoverBrandsMen";
 
 export default function MenNavbar() {
     return (
@@ -238,12 +240,12 @@ export default function MenNavbar() {
 
 
                                 <div className="flex flex-col items-center p-4">
-                                    <ShopByMenJewellery/>
+                                    <BrandListMen/>
                                 </div>
 
 
                                 <div>
-                                  <ShopByBags/>
+                                 <DiscoverBrandsMen/>
                                 </div>
 
                                 <div>

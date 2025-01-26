@@ -1,15 +1,15 @@
 const brands = [
-    { name: 'View all', img: 'path/to/view-all-image.jpg' },
-    { name: 'ASOS DESIGN', img: 'path/to/asos-design-image.jpg' },
-    { name: 'ASOS 4505', img: 'path/to/asos-4505-image.jpg' },
-    { name: 'Topman', img: 'path/to/topman-image.jpg' },
-    { name: 'COLLUSION', img: 'path/to/collusion-image.jpg' },
-    { name: 'Reclaimed Vintage', img: 'path/to/reclaimed-vintage-image.jpg' },
+    { name: 'View all', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_137545238_zckyga?&$n_240w$&quot' },
+    { name: 'ASOS DESIGN', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_135373757_qt6zfj?&$n_240w$&quot' },
+    { name: 'ASOS 4505', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_134224288_zousyu?&$n_240w$&quot' },
+    { name: 'Topman', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_135601389_gkqcr8?&$n_240w$&quot' },
+    { name: 'COLLUSION', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_134391391_cazlmf?&$n_240w$&quot' },
+    { name: 'Reclaimed Vintage', img: 'https://images.asos-media.com/navigation/mw_gbl_brands_flo_3M_135870949_agemi8?&$n_240w$&quot' },
 ];
 
 const BrandListMen = () => {
     return (
-        <div className="p-4">
+        <div className="">
             <h2 className="text-lg font-bold mb-4">ASOS BRANDS</h2>
             <ul>
                 {brands.map((brand, index) => (
