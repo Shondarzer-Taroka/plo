@@ -2,12 +2,12 @@ import React from 'react';
 
 const BrandDrops = () => {
   const brands = [
-    { name: 'ASOS DESIGN', img: 'path/to/asos-design-image.jpg' },
-    { name: 'adidas', img: 'path/to/adidas-image.jpg' },
-    { name: 'British Brands', img: 'path/to/british-brands-image.jpg' },
-    { name: 'New Balance', img: 'path/to/new-balance-image.jpg' },
-    { name: 'New Look', img: 'path/to/new-look-image.jpg' },
-    { name: 'The North Face', img: 'path/to/the-north-face-image.jpg' },
+    { name: 'ASOS DESIGN', img: 'https://images.asos-media.com/navigation/mw_uk_newin_asosdesign_3m_117590750?&$n_240w$&quot' },
+    { name: 'adidas', img: 'https://images.asos-media.com/navigation/mw_uk_newin_adidas_3m_121949817?&$n_240w$&quot' },
+    { name: 'British Brands', img: 'https://images.asos-media.com/navigation/mw_newin_britishbrands_3M_124199441?&$n_240w$&quot' },
+    { name: 'New Balance', img: 'https://images.asos-media.com/navigation/mw_newin_newbalance_3M_121808719?&$n_240w$&quot' },
+    { name: 'New Look', img: 'https://images.asos-media.com/navigation/mw_newinnewlook_3M_127354423?&$n_240w$&quot' },
+    { name: 'The North Face', img: 'https://images.asos-media.com/navigation/mw_newin_thenorthface_3M_120001226?&$n_240w$&quot' },
   ];
 
   return (
