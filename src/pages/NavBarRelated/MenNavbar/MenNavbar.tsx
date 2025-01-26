@@ -7,6 +7,10 @@ import ShopByBodyFit from "./ShopByBodyFit";
 import ShopByEdit from "./ShopByEdit";
 import TopSearchedFaves from "./TopSearchedFaves";
 import FashionStyles from "./FashionStyles";
+import ShopByBrand from "./ShopByBrand";
+import ShopByTrainerStyle from "./ShopByTrainerStyle";
+import ShoeCategories from "./ShoeCategories";
+import ShopByShoes from "./ShopByShoes";
 
 export default function MenNavbar() {
     return (
@@ -132,11 +136,68 @@ export default function MenNavbar() {
                     </div>
                 </Link>
 
-                <Link to={'/men'} className="hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+                <Link to={'/men'} className="menDressesParent hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
                     Dresses
 
-                    <div className="bg-gray-menNew">
-                        <div className="menNew">
+                    <div>
+                        <div className="menDresses">
+                            <aside className="grid grid-cols-4 gap-4">
+                                <div className="p-4">
+                                    <ShopByShoes />
+                                </div>
+
+
+
+                                <div className="flex flex-col items-center p-4">
+                                    <ShopByBrand />
+                                </div>
+
+
+                                <div>
+                                    <ShopByTrainerStyle />
+                                </div>
+
+                                <div>
+                                    <ShoeCategories />
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </Link>
+                <Link to={'/men'} className="menShoesParent  hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+                    Shoes
+
+                    <div>
+                        <div className="menShoes">
+                            <aside className="grid grid-cols-4 gap-4">
+                                <div className="p-4">
+                                    {/* <ShopByDresses/> */}
+                                    <ShopByShoes />
+                                </div>
+
+
+
+                                <div className="flex flex-col items-center p-4">
+                                    <ShopByBrand />
+                                </div>
+
+
+                                <div>
+                                    <ShopByTrainerStyle />
+                                </div>
+
+                                <div>
+                                    <ShoeCategories />
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to={'/men'} className="menAccessoriesParent hover:text-gray-400 px-3 hover:bg-white hover:h-full flex items-center justify-center">
+                    Accessories
+                    <div className="">
+                        <div className="menAccessories">
                             <aside className="grid grid-cols-4 gap-4">
                                 <div className="p-4">
                                     <h2 className="font-bold text-lg mb-4">NEW PRODUCTS</h2>
@@ -201,13 +262,6 @@ export default function MenNavbar() {
                         </div>
                     </div>
                 </Link>
-                <a href="#" className="hover:text-gray-400">
-                    Shoes
-                </a>
-
-                <a href="#" className="hover:text-gray-400">
-                    Accessories
-                </a>
                 <a href="#" className="hover:text-gray-400">
                     Brands
                 </a>

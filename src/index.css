@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 
-.menNewParent, .menClothingParent, .menTrendingParent {
+.menNewParent, .menClothingParent, .menTrendingParent,.menDressesParent,.menShoesParent {
     position: relative;
 }
 
 
 
-.menNew, .menClothing, .menTrending {
+.menNew, .menClothing, .menTrending, .menDresses,.menShoes{
     position: absolute;
     top: 100%; /* Aligns the dropdown box right below the parent */
     left: -60px; /* Aligns the box with the parent link */
@@ -26,6 +26,12 @@
 .menTrending{
     left: -260px;
 }
+.menDresses{
+    left: -366px;
+}
+.menShoes{
+    left: -456px;
+}
 
 .menNewParent:hover .menNew {
     display: block; /* Show the dropdown on hover */
@@ -35,5 +41,11 @@
 }
 
 .menTrendingParent:hover .menTrending{
+    display: block;
+}
+.menDressesParent:hover .menDresses{
+    display: block;
+}
+.menShoesParent:hover .menShoes{
     display: block;
 }
