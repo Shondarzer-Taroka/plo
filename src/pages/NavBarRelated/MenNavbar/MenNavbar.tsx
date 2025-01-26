@@ -15,6 +15,7 @@ import ShopByAccessories from "./ShopByAccessories";
 import ShopByMenJewellery from "./ShopByMenJewellery";
 import ShopByBags from "./ShopByBags";
 import FeaturedProductsMen from "./FeaturedProductsMen";
+import TopBrandsMen from "./TopBrandsMen";
 
 export default function MenNavbar() {
     return (
@@ -231,7 +232,7 @@ export default function MenNavbar() {
                         <div className="menBrands">
                             <aside className="grid grid-cols-4 gap-4">
                                 <div className="p-4">
-                                    <ShopByAccessories/>
+                                <TopBrandsMen/>
                                 </div>
 
 

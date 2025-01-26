@@ -14,8 +14,8 @@ const TopBrandsMen = () => {
         "adidas"
     ];
     return (
-        <div className="p-4 bg-gray-100">
-            <h2 className="text-lg font-bold text-gray-800">TOP BRANDS</h2>
+        <div className="">
+            <h2 className="text-lg font-bold">TOP BRANDS</h2>
             <h3 className="text-md font-semibold text-gray-600 mt-2">A-Z of brands</h3>
             <ul className="mt-2 space-y-1">
                 {brands.map((brand, index) => (
