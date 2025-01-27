@@ -22,6 +22,7 @@ import ActiveWeareBrandsMen from "./ActiveWeareBrandsMen";
 import ShopByActivityMen from "./ShopByActivityMen";
 import ShopSectionMen from "./ShopSectionMen";
 import ProductMenuMen from "./ProductMenuMen";
+import ProductBrandListMen from "./ProductBrandListMen";
 
 export default function MenNavbar() {
     return (
@@ -294,33 +295,7 @@ export default function MenNavbar() {
 
 
                                 <div className="flex flex-col items-center p-4">
-                                    <h1 className="text-xl font-bold mb-4">SHOP VALENTINES</h1>
-                                    <div className="grid grid-cols-2 gap-4">
-                                        <div className="flex flex-col items-center">
-                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
-                                                <img src="https://images.asos-media.com/navigation/MW+date+night+fits_dxxyhe?&$n_240w$&quot" alt="Date-night 'Fits" className="w-full h-full object-cover" />
-                                            </div>
-                                            <p className="text-center">Date-night 'Fits</p>
-                                        </div>
-                                        <div className="flex flex-col items-center">
-                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
-                                                <img src="https://images.asos-media.com/navigation/MW+satin+velvet_b2bbxx?&$n_240w$&quot" alt="Satin & Velvet" className="w-full h-full object-cover" />
-                                            </div>
-                                            <p className="text-center">Satin & Velvet</p>
-                                        </div>
-                                        <div className="flex flex-col items-center">
-                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
-                                                <img src="https://images.asos-media.com/navigation/MW+brands_ea5v1h?&$n_240w$&quot" alt="Premium Brands" className="w-full h-full object-cover" />
-                                            </div>
-                                            <p className="text-center">Premium Brands</p>
-                                        </div>
-                                        <div className="flex flex-col items-center">
-                                            <div className="w-24 h-24 rounded-full overflow-hidden mb-2">
-                                                <img src="https://images.asos-media.com/navigation/MW+vday+gifts_cd8ree?&$n_240w$&quot" alt="Gifts for Him" className="w-full h-full object-cover" />
-                                            </div>
-                                            <p className="text-center">Gifts for Him</p>
-                                        </div>
-                                    </div>
+                                    <ProductBrandListMen/>
                                 </div>
 
 
