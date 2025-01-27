@@ -23,6 +23,8 @@ import ShopByActivityMen from "./ShopByActivityMen";
 import ShopSectionMen from "./ShopSectionMen";
 import ProductMenuMen from "./ProductMenuMen";
 import ProductBrandListMen from "./ProductBrandListMen";
+import HairCareCard from "./HairCareCard";
+import ProductDisplayMen from "./ProductDisplayMen";
 
 export default function MenNavbar() {
     return (
@@ -300,11 +302,11 @@ export default function MenNavbar() {
 
 
                                 <div>
-                                    <BrandDrops />
+                                    <HairCareCard/>
                                 </div>
 
                                 <div>
-                                    <NewEdits />
+                                  <ProductDisplayMen/>
                                 </div>
                             </aside>
                         </div>
