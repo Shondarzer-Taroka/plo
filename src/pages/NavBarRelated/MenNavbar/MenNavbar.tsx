@@ -21,6 +21,7 @@ import FeaturedBrandsMen from "./FeaturedBrandsMen";
 import ActiveWeareBrandsMen from "./ActiveWeareBrandsMen";
 import ShopByActivityMen from "./ShopByActivityMen";
 import ShopSectionMen from "./ShopSectionMen";
+import ProductMenuMen from "./ProductMenuMen";
 
 export default function MenNavbar() {
     return (
@@ -287,22 +288,7 @@ export default function MenNavbar() {
                         <div className="menGromming">
                             <aside className="grid grid-cols-4 gap-4">
                                 <div className="p-4">
-                                    <h2 className="font-bold text-lg mb-4">NEW PRODUCTS</h2>
-                                    <ul className="space-y-2">
-                                        <li className="text-gray-700">View all</li>
-                                        <li className="text-gray-700">Clothing</li>
-                                        <li className="text-gray-700">Shoes</li>
-                                        <li className="font-bold text-gray-900">New in: Today</li>
-                                        <li className="font-bold text-gray-900">New In: Selling Fast</li>
-                                        <li className="text-gray-700">T-Shirts & Vests</li>
-                                        <li className="text-gray-700">Coats & Jackets</li>
-                                        <li className="text-gray-700">Hoodies & Sweatshirts</li>
-                                        <li className="text-gray-700">Activewear</li>
-                                        <li className="text-gray-700">Jumpers</li>
-                                        <li className="text-gray-700">Jeans & Trousers</li>
-                                        <li className="text-gray-700">Accessories</li>
-                                        <li className="text-gray-700">Underwear</li>
-                                    </ul>
+                                    <ProductMenuMen/>
                                 </div>
 
 
